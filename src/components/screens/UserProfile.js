@@ -3,6 +3,7 @@ import React, {useEffect, useState, useContext} from 'react'
 import { Button, Container, Image, Row } from 'react-bootstrap'
 import { useParams } from 'react-router-dom'
 import {UserContext} from '../../App'
+import { SERVER_URL } from '../../config'
 
 const UserProfile  = ()=>{
     const [userProfile,setProfile] = useState(null)
@@ -11,7 +12,7 @@ const UserProfile  = ()=>{
     const [showfollow,setShowFollow] = useState(state?!state.following.includes(userid):true)
 
     useEffect(()=>{
-        fetch(`/user/${userid}`,{
+        fetch(SERVER_URL+`/user/${userid}`,{
             headers:{
                 "Authorization":"Bearer "+localStorage.getItem("jwt")
             }
@@ -23,7 +24,7 @@ const UserProfile  = ()=>{
     },[])
 
     const followUser = ()=>{
-        fetch('/follow',{
+        fetch(SERVER_URL+'/follow',{
             method:"put",
             headers:{
                 "Content-Type":"application/json",
@@ -51,7 +52,7 @@ const UserProfile  = ()=>{
     }
 
     const unfollowUser = ()=>{
-        fetch('/unfollow',{
+        fetch(SERVER_URL+'/unfollow',{
             method:"put",
             headers:{
                 "Content-Type":"application/json",

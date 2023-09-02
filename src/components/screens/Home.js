@@ -7,7 +7,7 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import { basePath } from '../../config'
+import { SERVER_URL, basePath } from '../../config'
 
 const Home  = ()=>{
 
@@ -15,7 +15,7 @@ const Home  = ()=>{
    const {state, dispatch} = useContext(UserContext)
    
    useEffect(() => {
-      fetch('/allposts', {
+      fetch(SERVER_URL+'/allposts', {
          headers: {
             "Authorization" : "Bearer " + localStorage.getItem("jwt")
          }
@@ -27,7 +27,7 @@ const Home  = ()=>{
    }, [])
 
    const likePost = (id) => {
-      fetch('/like', {
+      fetch(SERVER_URL+'/like', {
          method: "put",
          headers: {
             "Content-Type": "application/json",
@@ -52,7 +52,7 @@ const Home  = ()=>{
    }
 
    const unlikePost = (id) => {
-      fetch('/unlike', {
+      fetch(SERVER_URL+'/unlike', {
          method: "put",
          headers: {
             "Content-Type": "application/json",
@@ -77,7 +77,7 @@ const Home  = ()=>{
    }
 
    const makeComment = (text,postId)=>{
-      fetch('/comment',{
+      fetch(SERVER_URL+'/comment',{
           method:"put",
           headers:{
               "Content-Type":"application/json",
@@ -103,7 +103,7 @@ const Home  = ()=>{
    }
 
    const deletePost = (postid)=>{
-      fetch(`/deletepost/${postid}`,{
+      fetch(`${SERVER_URL}/deletepost/${postid}`,{
           method:"delete",
           headers:{
               Authorization:"Bearer "+localStorage.getItem("jwt")
