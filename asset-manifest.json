@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Socio-Engage/static/css/main.fc8c3ef8.chunk.css",
+    "main.js": "/Socio-Engage/static/js/main.1a39dbf5.chunk.js",
+    "main.js.map": "/Socio-Engage/static/js/main.1a39dbf5.chunk.js.map",
+    "runtime-main.js": "/Socio-Engage/static/js/runtime-main.4985923c.js",
+    "runtime-main.js.map": "/Socio-Engage/static/js/runtime-main.4985923c.js.map",
+    "static/css/2.3cf5d70f.chunk.css": "/Socio-Engage/static/css/2.3cf5d70f.chunk.css",
+    "static/js/2.bcae3282.chunk.js": "/Socio-Engage/static/js/2.bcae3282.chunk.js",
+    "static/js/2.bcae3282.chunk.js.map": "/Socio-Engage/static/js/2.bcae3282.chunk.js.map",
+    "index.html": "/Socio-Engage/index.html",
+    "precache-manifest.a2057fc96cc9dba73fdb83ab79882647.js": "/Socio-Engage/precache-manifest.a2057fc96cc9dba73fdb83ab79882647.js",
+    "service-worker.js": "/Socio-Engage/service-worker.js",
+    "static/css/2.3cf5d70f.chunk.css.map": "/Socio-Engage/static/css/2.3cf5d70f.chunk.css.map",
+    "static/css/main.fc8c3ef8.chunk.css.map": "/Socio-Engage/static/css/main.fc8c3ef8.chunk.css.map",
+    "static/js/2.bcae3282.chunk.js.LICENSE.txt": "/Socio-Engage/static/js/2.bcae3282.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4985923c.js",
+    "static/css/2.3cf5d70f.chunk.css",
+    "static/js/2.bcae3282.chunk.js",
+    "static/css/main.fc8c3ef8.chunk.css",
+    "static/js/main.1a39dbf5.chunk.js"
+  ]
+}
