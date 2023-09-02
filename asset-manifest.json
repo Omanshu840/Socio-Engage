@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Socio-Engage/static/css/main.fc8c3ef8.chunk.css",
-    "main.js": "/Socio-Engage/static/js/main.48269df1.chunk.js",
-    "main.js.map": "/Socio-Engage/static/js/main.48269df1.chunk.js.map",
+    "main.js": "/Socio-Engage/static/js/main.493ff7fd.chunk.js",
+    "main.js.map": "/Socio-Engage/static/js/main.493ff7fd.chunk.js.map",
     "runtime-main.js": "/Socio-Engage/static/js/runtime-main.4985923c.js",
     "runtime-main.js.map": "/Socio-Engage/static/js/runtime-main.4985923c.js.map",
     "static/css/2.3cf5d70f.chunk.css": "/Socio-Engage/static/css/2.3cf5d70f.chunk.css",
     "static/js/2.bcae3282.chunk.js": "/Socio-Engage/static/js/2.bcae3282.chunk.js",
     "static/js/2.bcae3282.chunk.js.map": "/Socio-Engage/static/js/2.bcae3282.chunk.js.map",
     "index.html": "/Socio-Engage/index.html",
-    "precache-manifest.e56c5dd797a6f4f59d5d58b935e264bb.js": "/Socio-Engage/precache-manifest.e56c5dd797a6f4f59d5d58b935e264bb.js",
+    "precache-manifest.fc04c5333a78b05b0b7082a8ba90616d.js": "/Socio-Engage/precache-manifest.fc04c5333a78b05b0b7082a8ba90616d.js",
     "service-worker.js": "/Socio-Engage/service-worker.js",
     "static/css/2.3cf5d70f.chunk.css.map": "/Socio-Engage/static/css/2.3cf5d70f.chunk.css.map",
     "static/css/main.fc8c3ef8.chunk.css.map": "/Socio-Engage/static/css/main.fc8c3ef8.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.3cf5d70f.chunk.css",
     "static/js/2.bcae3282.chunk.js",
     "static/css/main.fc8c3ef8.chunk.css",
-    "static/js/main.48269df1.chunk.js"
+    "static/js/main.493ff7fd.chunk.js"
   ]
 }

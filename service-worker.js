@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Socio-Engage/precache-manifest.e56c5dd797a6f4f59d5d58b935e264bb.js"
+  "/Socio-Engage/precache-manifest.fc04c5333a78b05b0b7082a8ba90616d.js"
 );
 
 self.addEventListener('message', (event) => {

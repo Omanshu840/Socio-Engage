@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71e80b672c33783e24e08f8c0c047a6b",
+    "revision": "3f8e1f1fe872ccd9221694418fadbe2f",
     "url": "/Socio-Engage/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Socio-Engage/static/css/2.3cf5d70f.chunk.css"
   },
   {
-    "revision": "735190b531d88868b99e",
+    "revision": "27a7c5b959c237f011c9",
     "url": "/Socio-Engage/static/css/main.fc8c3ef8.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Socio-Engage/static/js/2.bcae3282.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "735190b531d88868b99e",
-    "url": "/Socio-Engage/static/js/main.48269df1.chunk.js"
+    "revision": "27a7c5b959c237f011c9",
+    "url": "/Socio-Engage/static/js/main.493ff7fd.chunk.js"
   },
   {
     "revision": "31376b626681d9528e2c",
