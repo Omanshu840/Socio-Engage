@@ -9,7 +9,7 @@ import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import Visibility from '@material-ui/icons/Visibility';
 import VisibilityOff from '@material-ui/icons/VisibilityOff';
 import EmailIcon from '@material-ui/icons/Email';
-import { basePath } from '../../config';
+import { SERVER_URL, basePath } from '../../config';
 
 const SignUp  = ()=>{
     const history = useHistory()
@@ -46,7 +46,7 @@ const SignUp  = ()=>{
     }
 
     const uploadFields = () => {
-        fetch("/signup",{
+        fetch(SERVER_URL+"/signup",{
             method:"post",
             headers:{
                 "Content-Type":"application/json"

@@ -3,7 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import SearchIcon from '@material-ui/icons/Search';
 import { Card, Divider, InputAdornment, List, ListItem, ListItemText, TextField } from '@material-ui/core';
 import { Link } from 'react-router-dom';
-import { basePath } from '../../config';
+import { SERVER_URL, basePath } from '../../config';
 
 const Search = ()=>{
 
@@ -12,7 +12,7 @@ const Search = ()=>{
     const [searchResult, setSearchResult] = useState([])
 
     useEffect(() => {
-        fetch('/allusers', {
+        fetch(SERVER_URL+'/allusers', {
             headers: {
                 "Authorization" : "Bearer " + localStorage.getItem("jwt")
             }

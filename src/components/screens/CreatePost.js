@@ -4,6 +4,7 @@ import { Card, Container, Row } from 'react-bootstrap'
 import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
 import {FormControl, Input, InputLabel } from '@material-ui/core';
+import { SERVER_URL } from '../../config';
 
 const CreatePost = () => {
 
@@ -16,7 +17,7 @@ const CreatePost = () => {
 
     useEffect(() => {
         if(imgUrl) {
-            fetch("/createpost", {
+            fetch(SERVER_URL+"/createpost", {
                 method: "post",
                 headers: {
                     "Content-Type": "application/json",

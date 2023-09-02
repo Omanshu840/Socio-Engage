@@ -9,7 +9,7 @@ import Visibility from '@material-ui/icons/Visibility';
 import VisibilityOff from '@material-ui/icons/VisibilityOff';
 import {FormControl, IconButton, Input, InputAdornment, InputLabel } from '@material-ui/core';
 import InputIcon from '@material-ui/icons/Input';
-import { basePath } from '../../config';
+import { SERVER_URL, basePath } from '../../config';
 
 const SignIn = ()=>{
     const {state, dispatch} = useContext(UserContext)
@@ -21,7 +21,7 @@ const SignIn = ()=>{
     
     const PostData = ()=>{
         
-        fetch("/signin",{
+        fetch(SERVER_URL+"/signin",{
             method:"post",
             headers:{
                 "Content-Type":"application/json"

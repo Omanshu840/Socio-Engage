@@ -2,6 +2,7 @@ import { Card } from '@material-ui/core'
 import React, {useEffect, useState, useContext} from 'react'
 import {Container, Image, Row } from 'react-bootstrap'
 import {UserContext} from '../../App'
+import { SERVER_URL } from '../../config'
 
 const Profile  = ()=>{
     const [myposts, setMyPosts] = useState([])
@@ -9,7 +10,7 @@ const Profile  = ()=>{
     const [image,setImage] = useState("")
 
     useEffect(() => {
-        fetch('/myposts', {
+        fetch(SERVER_URL+'/myposts', {
             headers: {
                "Authorization" : "Bearer " + localStorage.getItem("jwt")
             }
@@ -32,7 +33,7 @@ const Profile  = ()=>{
             })
             .then(res => res.json())
             .then(data => {
-                fetch('/updatepic',{
+                fetch(SERVER_URL+'/updatepic',{
                     method:"put",
                     headers:{
                         "Content-Type":"application/json",
